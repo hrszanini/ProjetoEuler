@@ -4,3 +4,5 @@ Soluções implementadas a fim de solucionar os problemas da plataforma [Project
 
 - [x] [Problema 1](https://github.com/hrszanini/project-euler/blob/main/1.c)
 - [x] [Problema 2](https://github.com/hrszanini/project-euler/blob/main/2.c)
+- [X] [Problema 3](https://github.com/hrszanini/project-euler/blob/main/3.c)
+- [ ] [Problema 4](https://github.com/hrszanini/project-euler/blob/main/4.c)
