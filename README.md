@@ -4,6 +4,7 @@ Soluções implementadas a fim de solucionar os problemas da plataforma [Project
 
 - [x] [Problema 1](https://github.com/hrszanini/project-euler/blob/main/1.c)
 - [x] [Problema 2](https://github.com/hrszanini/project-euler/blob/main/2.c)
-- [X] [Problema 3](https://github.com/hrszanini/project-euler/blob/main/3.c)
-- [X] [Problema 4](https://github.com/hrszanini/project-euler/blob/main/4.c)
-- [ ] [Problema 5](https://github.com/hrszanini/project-euler/blob/main/5.c)
+- [x] [Problema 3](https://github.com/hrszanini/project-euler/blob/main/3.c)
+- [x] [Problema 4](https://github.com/hrszanini/project-euler/blob/main/4.c)
+- [x] [Problema 5](https://github.com/hrszanini/project-euler/blob/main/5.c)
+- [ ] [Problema 6](https://github.com/hrszanini/project-euler/blob/main/6.c)
