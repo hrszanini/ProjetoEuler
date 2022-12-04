@@ -2,7 +2,7 @@
 
 Soluções implementadas a fim de solucionar os problemas da plataforma [Project Euler](https://projecteuler.net/), tentando seguir sempre a regra de execução em menos de 1 minuto.
 
-- [x] Problema 1
+- [x] [Problema 1](https://github.com/hrszanini/project-euler/blob/main/1.c)
 - [ ] Problema 2
 - [ ] Problema 3
 - [ ] Problema 4

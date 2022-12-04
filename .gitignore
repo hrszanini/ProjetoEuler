@@ -55,7 +55,11 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+.build
+.build/*
+
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
