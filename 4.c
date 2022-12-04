@@ -1,6 +1,10 @@
 // A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 // Find the largest palindrome made from the product of two 3-digit numbers.
 
+// Um número palíndromo se lê da mesma forma em qualquer direção. O maior palíndromo produzido do produto de dois números de 2 algarismos é 9009 = 91 × 99.
+// Encontre o maior palíndromo produzido do produto de dois números de 3 algarismos.
+
+
 #include <stdio.h>
 #define MAIOR_VALOR 999
 
