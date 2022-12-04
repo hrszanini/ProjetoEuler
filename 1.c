@@ -4,21 +4,21 @@
 #include <stdio.h>
 #define FINAL 10
 
-int isMultipleOf3And5(int number){
-    if(number % 3 == 0 || number % 5 == 0)
+int eMultiploDe3E5(int numero){
+    if(numero % 3 == 0 || numero % 5 == 0)
         return 1;
     return 0;
 }
 
 int main(){
-    int sum = 0;
+    int soma = 0;
 
     for(int i = 3; i < 1000; i++){
-        if(isMultipleOf3And5(i))
-            sum += i;
+        if(eMultiploDe3E5(i))
+            soma += i;
     }
 
-    printf("%d\n", sum);
+    printf("%d\n", soma);
 
     return 0;
 }

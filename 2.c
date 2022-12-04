@@ -3,11 +3,25 @@
 // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 #include <stdio.h>
-#define FINAL 4000000
+#define LIMITE 4000000
 
 int main(){
+    int anterior = 1, atual = 2, soma = 2, contador = 0;
 
+    do{
+        int auxiliar = atual;
+        atual += anterior;
+        anterior = auxiliar;
+
+        //A partir do 3º valor, os valores serão -> ímpar ímpar par, logo somamos a cada 3 valores para obtermos somento os pares.
+        if(++contador == 3){
+            soma += atual;
+            contador = 0;
+        }
+
+    }while(atual <= LIMITE);
     
+    printf("%d\n", soma);
 
     return 0;
 }
