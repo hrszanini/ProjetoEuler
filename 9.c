@@ -10,7 +10,25 @@
 * Existe exatamente um terno pitagórico em que a + b + c = 1000 . Encontre o produto abc.
 */
 
+#include<stdio.h>
+
+int testar(int a, int b, int c){
+  if(a == b){
+    c += a;
+    a = 0;
+    return testar(a, b + 1, c - 1);
+  }
+
+  if((a * a) + (b * b) == (c * c))
+    return a * b * c;
+  
+  return testar(a + 1, b, c - 1);
+}
+
 int main() {
+  int a = 0, b = 0, c = 1000;
+
+  printf("%d\n", testar(a, b, c));
 
   return 0;
 }
